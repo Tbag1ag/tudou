@@ -14,6 +14,7 @@ export default defineConfig(({ mode }) => {
         react(),
         VitePWA({
           registerType: 'autoUpdate',
+          injectRegister: 'auto',
           includeAssets: ['Gemini_Generated_Image_d5dxtwd5dxtwd5dx.png'],
           manifest: {
             name: 'Potato Habits',

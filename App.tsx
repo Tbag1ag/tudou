@@ -6,6 +6,7 @@ import DateStrip from './components/DateStrip';
 import AddHabitModal from './components/AddHabitModal';
 import PotatoMascot from './components/PotatoMascot';
 import PotatoField from './components/PotatoField';
+import InstallPrompt from './components/InstallPrompt';
 import { getMotivation } from './services/geminiService';
 
 const App: React.FC = () => {
@@ -326,6 +327,8 @@ const App: React.FC = () => {
           onClose={() => setIsModalOpen(false)}
           onAdd={addHabit}
         />
+        
+        <InstallPrompt />
       </div>
     </div>
   );
