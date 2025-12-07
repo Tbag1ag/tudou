@@ -29,9 +29,21 @@ export default defineConfig(({ mode }) => {
             icons: [
               {
                 src: '/Gemini_Generated_Image_d5dxtwd5dxtwd5dx.png',
+                sizes: '192x192',
+                type: 'image/png',
+                purpose: 'any'
+              },
+              {
+                src: '/Gemini_Generated_Image_d5dxtwd5dxtwd5dx.png',
                 sizes: '512x512',
                 type: 'image/png',
-                purpose: 'any maskable'
+                purpose: 'any'
+              },
+              {
+                src: '/Gemini_Generated_Image_d5dxtwd5dxtwd5dx.png',
+                sizes: '512x512',
+                type: 'image/png',
+                purpose: 'maskable'
               }
             ]
           },
