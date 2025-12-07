@@ -29,43 +29,7 @@ export default defineConfig(({ mode }) => {
             icons: [
               {
                 src: '/Gemini_Generated_Image_d5dxtwd5dxtwd5dx.png',
-                sizes: '72x72',
-                type: 'image/png',
-                purpose: 'any'
-              },
-              {
-                src: '/Gemini_Generated_Image_d5dxtwd5dxtwd5dx.png',
-                sizes: '96x96',
-                type: 'image/png',
-                purpose: 'any'
-              },
-              {
-                src: '/Gemini_Generated_Image_d5dxtwd5dxtwd5dx.png',
-                sizes: '128x128',
-                type: 'image/png',
-                purpose: 'any'
-              },
-              {
-                src: '/Gemini_Generated_Image_d5dxtwd5dxtwd5dx.png',
-                sizes: '144x144',
-                type: 'image/png',
-                purpose: 'any'
-              },
-              {
-                src: '/Gemini_Generated_Image_d5dxtwd5dxtwd5dx.png',
-                sizes: '152x152',
-                type: 'image/png',
-                purpose: 'any'
-              },
-              {
-                src: '/Gemini_Generated_Image_d5dxtwd5dxtwd5dx.png',
                 sizes: '192x192',
-                type: 'image/png',
-                purpose: 'any'
-              },
-              {
-                src: '/Gemini_Generated_Image_d5dxtwd5dxtwd5dx.png',
-                sizes: '384x384',
                 type: 'image/png',
                 purpose: 'any'
               },
